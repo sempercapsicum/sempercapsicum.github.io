@@ -1,4 +1,6 @@
 sempercapsicum.github.io
 ========================
 
-personal website
+pepper curry's personal website.
+
+oh hai.
