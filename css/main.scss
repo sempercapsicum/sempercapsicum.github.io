@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import "bourbon";
+@import "neat";
 @charset "utf-8";
 
 
@@ -25,6 +27,10 @@ $white: #ffffff;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$light: 300;
+$normal: 500;
+$heavy: 700;
 
 
 
