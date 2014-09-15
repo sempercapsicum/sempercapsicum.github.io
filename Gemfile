@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
 gem "rails"
-gem "bourbon"
+gem "bourbon", "3.2"
 gem "neat"
