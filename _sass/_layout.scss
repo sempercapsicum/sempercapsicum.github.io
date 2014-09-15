@@ -4,7 +4,6 @@
 .site-header {
     border-top: 5px solid $brand-accent;
     min-height: 56px;
-    @include background(linear-gradient(red, green) left repeat);
 
     // Positioning context for the mobile navigation icon
     position: relative;
