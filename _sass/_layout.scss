@@ -4,6 +4,7 @@
 .site-header {
     border-top: 5px solid $brand-accent;
     min-height: 56px;
+    background-color: $white;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -85,8 +86,18 @@
         }
     }
 }
+/* main page content */
+.home {
+    background-image: url("../images/pepperface.jpg");
+}
 
+.menu {
+    margin: 0 auto;
+}
 
+.main-menu {
+    @include span-columns(4);
+}
 
 /**
  * Site footer
