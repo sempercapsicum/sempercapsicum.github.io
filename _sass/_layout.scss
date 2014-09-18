@@ -87,8 +87,20 @@
     }
 }
 /* main page content */
-.home {
-    background-image: url("../images/pepperface.jpg");
+img.background-image {
+    min-height: 100%;
+    min-width: 1024px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { 
+  img.background-image {
+    left: 50%;
+    margin-left: -512px;
+  }
 }
 
 .menu {
