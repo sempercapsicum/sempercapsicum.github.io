@@ -4,7 +4,7 @@
 .site-header {
     border-top: 5px solid $brand-accent;
     min-height: 56px;
-    background-color: $white;
+    background-color: $dark-blue;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,11 +16,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    font-family: "omnes-pro", sans-serif;
 
     &,
     &:visited {
-        color: $grey-color-dark;
-        font-weight: $light;
+        color: $cream;
+        font-weight: $heavy;
+        font-kerning: 10px;
     }
 }
 
@@ -184,9 +186,6 @@ img.background-image {
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
 
 .page-heading {
     font-size: 20px;

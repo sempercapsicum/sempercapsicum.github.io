@@ -16,13 +16,20 @@ $spacing-unit: 30px;
 
 $text-color: #111;
 $background-color: #fdfdfd;
-$brand-color: #2a7ae2;
-$brand-accent: #FF5B51;
+$brand-color: #4B689A;
+$brand-accent: #DCC558;
 
 $grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark: darken($grey-color, 25%);
 $white: #ffffff;
+
+// Theme Colours
+$cream: #F1E9D4;
+$blue: #4B689A;
+$yellow: #DCC558;
+$grey: #959A91;
+$dark-blue: #405065;
 
 $on-palm: 600px;
 $on-laptop: 800px;
