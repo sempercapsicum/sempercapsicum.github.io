@@ -4,6 +4,7 @@
 .site-header {
     border-top: 5px solid $brand-accent;
     min-height: 56px;
+    background-color: $dark-blue;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -15,11 +16,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    font-family: "omnes-pro", sans-serif;
 
     &,
     &:visited {
-        color: $grey-color-dark;
-        font-weight: $light;
+        color: $cream;
+        font-weight: $heavy;
+        font-kerning: 10px;
     }
 }
 
@@ -85,8 +88,30 @@
         }
     }
 }
+/* main page content */
+img.background-image {
+    min-height: 100%;
+    min-width: 1024px;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
+@media screen and (max-width: 1024px) { 
+  img.background-image {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
 
+.menu {
+    margin: 0 auto;
+}
+
+.main-menu {
+    @include span-columns(4);
+}
 
 /**
  * Site footer
@@ -161,9 +186,6 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
 
 .page-heading {
     font-size: 20px;

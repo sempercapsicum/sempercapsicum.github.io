@@ -8,24 +8,31 @@
 
 // Our variables
 $base-font-family: "freight-sans-pro", Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 16px;
+$small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit: 30px;
 
-$text-color:       #111;
+$text-color: #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-$brand-accent: #FF5B51;
+$brand-color: #4B689A;
+$brand-accent: #DCC558;
 
-$grey-color:       #828282;
+$grey-color: #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-dark: darken($grey-color, 25%);
 $white: #ffffff;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// Theme Colours
+$cream: #F1E9D4;
+$blue: #4B689A;
+$yellow: #DCC558;
+$grey: #959A91;
+$dark-blue: #405065;
+
+$on-palm: 600px;
+$on-laptop: 800px;
 
 $light: 300;
 $normal: 500;
@@ -41,16 +48,16 @@ $heavy: 700;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "base",
+  "layout",
+  "syntax-highlighting"
 ;
