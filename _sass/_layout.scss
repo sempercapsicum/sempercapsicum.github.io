@@ -21,8 +21,8 @@
     &,
     &:visited {
         color: $cream;
-        font-weight: $heavy;
-        font-kerning: 10px;
+        font-weight: $light;
+        letter-spacing: 1px;
     }
 }
 
@@ -35,8 +35,11 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $cream;
         line-height: $base-line-height;
+        &:hover {
+            color: $yellow;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -89,6 +92,10 @@
     }
 }
 /* main page content */
+.background-image {
+    position: relative;
+}
+
 img.background-image {
     min-height: 100%;
     min-width: 1024px;
@@ -104,13 +111,36 @@ img.background-image {
     margin-left: -512px;
   }
 }
-
-.menu {
-    margin: 0 auto;
-}
-
-.main-menu {
-    @include span-columns(4);
+.circles{
+    position: absolute;
+    top: 45%;
+    right: 52.5%;
+    .circle-btn {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        background: rgba(220, 197, 88, .8);
+        position: absolute;
+        text-align: center;
+        @include transition(all .5s ease-in-out);
+        &:hover {
+            @include transform(scale(1.2));
+        }
+        .circle-link {
+            margin-top: 25px;
+        }
+    }
+    .circle-1 {
+        top: -50px;
+    }
+    .circle-2 {
+        left: 60px;
+        top: 40px;
+    }
+    .circle-3 {
+        top: 40px;
+        right: -20px;
+    }
 }
 
 /**
