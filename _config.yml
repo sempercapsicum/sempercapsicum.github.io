@@ -2,7 +2,7 @@
 title: "Pepper Curry: Design & Illustration"
 email: sempercapsicum@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Pepper Curry is a web designer and general creative person living in Wellington, New Zealand. This is her website which may be in a weird state of disarray due to experimentation.
+  Pepper Curry is a web designer and general creative person living in Wellington, New Zealand. This is her website, which may be in a weird state of disarray due to experimentation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.peppercurry.com" # the base hostname & protocol for your site
 twitter_username: sempercapsicum
