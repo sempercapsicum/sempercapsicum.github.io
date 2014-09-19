@@ -21,8 +21,8 @@
     &,
     &:visited {
         color: $cream;
-        font-weight: $heavy;
-        font-kerning: 10px;
+        font-weight: $light;
+        letter-spacing: 1px;
     }
 }
 
@@ -35,8 +35,11 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $cream;
         line-height: $base-line-height;
+        &:hover {
+            color: $yellow;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -118,9 +121,13 @@ img.background-image {
         border-radius: 50%;
         background: rgba(220, 197, 88, .8);
         position: absolute;
+        text-align: center;
         @include transition(all .5s ease-in-out);
         &:hover {
             @include transform(scale(1.2));
+        }
+        .circle-link {
+            margin-top: 25px;
         }
     }
     .circle-1 {
