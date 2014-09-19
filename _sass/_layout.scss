@@ -16,7 +16,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    font-family: "omnes-pro", sans-serif;
+    font-family: $base-font-family;
 
     &,
     &:visited {
@@ -117,13 +117,16 @@ img.background-image {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 5px solid $brand-accent;
     padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    background-color: $dark-blue;
+    min-height: 20%;
+    a {
+        color: $cream;
+        &:hover {
+            color: $yellow;
+        }
+    }
 }
 
 .contact-list,
@@ -133,8 +136,9 @@ img.background-image {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: $cream;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
