@@ -48,69 +48,18 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
         .trigger {
             clear: both;
             display: none;
         }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
 }
 /* main page content */
 .background-image {
-    background-image: url('../images/mullet.jpg');
     position: relative;
 }
 
 img.background-image {
-    min-height: 100%;
-    min-width: 1024px;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-@media screen and (max-width: 1024px) { 
-  img.background-image {
-    left: 50%;
-    margin-left: -512px;
-  }
+    height: 90%;
 }
 
 .circles{
@@ -145,6 +94,22 @@ img.background-image {
     }
 }
 
+@media (max-width: 850px) {
+    .circles {
+        .circle-1 {
+            top: -40px;
+        }
+        .circle-2 {
+            top: -40px;
+            left: 90px;
+        }
+        .circle-3 {
+            top: -40px;
+            right: 15px;
+        }
+    }
+}
+
 /**
  * Site footer
  */
@@ -152,7 +117,7 @@ img.background-image {
     border-top: 5px solid $brand-accent;
     padding: $spacing-unit 0;
     background-color: $dark-blue;
-    min-height: 20%;
+    width: 100%;
     a {
         color: $cream;
         &:hover {
@@ -216,8 +181,6 @@ img.background-image {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 
 /**
  * Page content
@@ -292,3 +255,5 @@ img.background-image {
         }
     }
 }
+
+
