@@ -52,6 +52,7 @@
             clear: both;
             display: none;
         }
+    }
 }
 /* main page content */
 .background-image {
@@ -188,6 +189,10 @@ img.background-image {
 
 .page-heading {
     font-size: 20px;
+}
+
+.page-content {
+    background-color: $background-color;
 }
 
 .post-list {
