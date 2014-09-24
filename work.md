@@ -4,4 +4,4 @@ title: Work
 permalink: /work/
 ---
 
-YES SOME THINGS GO HERE SOMEDAY.
+Soon...soon...
