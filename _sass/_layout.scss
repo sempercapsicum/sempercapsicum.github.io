@@ -26,6 +26,15 @@
     }
 }
 
+@include media-query($on-palm) {
+    .headfoot-wrapper {
+        text-align: center;
+    }
+    .site-title {
+            float: none;
+        }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -66,7 +75,7 @@ img.background-image {
 .circles{
     position: absolute;
     top: 45%;
-    right: 52.5%;
+    right: 54%;
     .circle-btn {
         height: 75px;
         width: 75px;
@@ -84,6 +93,7 @@ img.background-image {
     }
     .circle-1 {
         top: -50px;
+
     }
     .circle-2 {
         left: 60px;
@@ -120,7 +130,7 @@ img.background-image {
     background-color: $dark-blue;
     width: 100%;
     a {
-        color: $cream;
+        color: $grey;
         &:hover {
             color: $yellow;
         }
@@ -148,30 +158,17 @@ img.background-image {
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    @include span-columns(6);
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    @include span-columns(6);
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        @include span-columns(6);
     }
 }
 
