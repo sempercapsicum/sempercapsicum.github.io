@@ -4,8 +4,30 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+_Pepper Curry is a designer living and working in Wellington, New Zealand._
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I'm a web designer for [Rabid](http://www.rabid.co.nz), as well as a founding member of the intermittent and mysterious Subterranean Mountaintop Seaside duo. I've done shirts for The Ramen Shop, posters for awesome events, and love doing illustrations for all sorts of projects. I am known as Pepper Raccoon across most of the internets.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My skills include:
+
+  + HTML
+  + CSS
+  + Some JS/jQuery
+  + Drawing
+  + Prototyping/Wireframing
+
+My passions are:
+
+  + Illustration
+  + Cooking
+  + Knitting
+  + Mountain Biking
+  + Gardening
+  + Magic: The Gathering (nerd factor)
+
+My favour:
+
+  + Plenty of outdoor time and sunshine
+  + A tiny house with lots of land.
+  + A happy bunch of animals to hang out with.
+  + Mountain biking trails, and lots of 'em.
