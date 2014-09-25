@@ -93,7 +93,6 @@ img.background-image {
     }
     .circle-1 {
         top: -50px;
-
     }
     .circle-2 {
         left: 60px;
@@ -107,6 +106,7 @@ img.background-image {
 
 @media (max-width: 850px) {
     .circles {
+        right: 55%;
         .circle-1 {
             top: -40px;
         }
@@ -118,6 +118,12 @@ img.background-image {
             top: -40px;
             right: 15px;
         }
+    }
+}
+
+@media (max-width: 600px){
+    .circles {
+        right: 59%;
     }
 }
 
