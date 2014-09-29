@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-_Pepper Curry is a designer living and working in Wellington, New Zealand._
+<center><img src="../images/portrait.png"></center>
+
+<center><blockquote><em>Pepper Curry is a designer living and working in Wellington, New Zealand.</em></blockquote></center>
+
 
 I'm a web designer for [Rabid](http://www.rabid.co.nz), as well as a founding member of the intermittent and mysterious Subterranean Mountaintop Seaside duo. I've done shirts for The Ramen Shop, posters for awesome events, and love doing illustrations for all sorts of projects. I am known as Pepper Raccoon across most of the internets.
 
