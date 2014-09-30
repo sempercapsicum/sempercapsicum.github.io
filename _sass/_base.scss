@@ -44,7 +44,10 @@ img {
     vertical-align: middle;
 }
 
-
+strong {
+    font-weight: $heavy;
+    color: $grey-color-dark;
+}
 
 /**
  * Figures

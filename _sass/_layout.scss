@@ -268,4 +268,18 @@ img.background-image {
     }
 }
 
+/* About Page */
+.about-me-list {
+    @include outer-container;
+    .about-list {
+        @include span-columns(5);
+        list-style: none;
+        text-align: center;
+    }
+}
 
+.about-list-title {
+    font-size: $base-font-size + 10;
+    margin: 10px 0;
+    display: block;
+}
