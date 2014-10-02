@@ -13,19 +13,30 @@ I'm a web designer for [Rabid](http://www.rabid.co.nz), as well as a founding me
 
 <div class="about-me-list">
   <ul class="about-list">
-    <strong class="about-list-title">Skills</strong>
-    <li>HTML</li>
-    <li>CSS</li>
+    <h4 class="about-list-title">Skills</h4>
+    <li>HTML/HAML</li>
+    <li>CSS/SASS</li>
     <li>Some JS/jQuery</li>
     <li>Drawing</li>
     <li>Prototyping/Wireframing</li>
+    <li>Photoshop/Illustrator</li>
   </ul>
   <ul class="about-list">
-    <strong class="about-list-title">Interests</strong>
+    <h4 class="about-list-title">Interests</h4>
     <li>Illustration</li>
     <li>Cooking</li>
     <li>Knitting</li>
     <li>Mountain Biking</li>
     <li>Gardening</li>
-    <li>Magic: The Gathering (nerd factor)</li>
+    <li>Magic: The Gathering</li>
   </ul>
+  <ul class="about-list">
+      <h4 class="about-list-title">Software/Frameworks</h4>
+      <li>Adobe PS/IL/ID</li>
+      <li>Balsamiq</li>
+      <li>Office/iWork</li>
+      <li>Bourbon/Neat</li>
+      <li>Bootstrap</li>
+      <li>Refinery</li>
+  </ul>
+</div>

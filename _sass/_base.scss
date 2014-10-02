@@ -46,7 +46,6 @@ img {
 
 strong {
     font-weight: $heavy;
-    color: $grey-color-dark;
 }
 
 /**
@@ -60,29 +59,11 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
-/**
- * Lists
- */
-ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
-}
-
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: $light;
 }
 
 
