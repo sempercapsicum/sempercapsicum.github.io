@@ -46,6 +46,7 @@
     .page-link {
         color: $cream;
         line-height: $base-line-height;
+        letter-spacing: 1px;
         &:hover {
             color: $yellow;
         }
@@ -268,4 +269,27 @@ img.background-image {
     }
 }
 
+/* About Page */
+.about-me-list {
+    @include outer-container;
+    display: block;
+    margin: 0 auto;
+    .about-list {
+        @include span-columns(4);
+        list-style: none;
+        text-align: center;
+        background-color: $cream;
+        padding: 0 0 10px 0;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
 
+.about-list-title {
+    font-size: $base-font-size + 6;
+    margin: 0 0 10px 0;
+    display: block;
+    color: $cream;
+    background-color: $dark-blue;
+    padding: 5px 0 5px 0;
+}
