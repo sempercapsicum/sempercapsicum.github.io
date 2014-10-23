@@ -1,0 +1,63 @@
+// Refills Tabs
+
+.accordion-tabs-minimal {
+  $tab-border-color: $grey-color;
+  $tab-border: 1px solid $tab-border-color;
+  $tab-content-background: $background-color;
+  $tab-active-background: $background-color;
+  $tab-inactive-color: $background-color;
+  $tab-inactive-hover-color: $blue;
+  $tab-mode: 960px;
+
+  @include clearfix;
+  margin-bottom: $spacing-unit;
+
+  li.tab-header-and-content {
+    @include media($tab-mode) {
+      display: inline;
+    }
+  }
+
+  a.tab-link {
+    background-color: $tab-inactive-color;
+    border-top: 0;
+    color: $dark-blue;
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    font-weight: 400;
+    padding: 10px 15px;
+
+    @include media($tab-mode) {
+      @include inline-block;
+      border-top: 0;
+    }
+
+    &:hover {
+      color: $blue;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.is-active {
+      border-bottom: 0;
+
+      @include media($tab-mode) {
+        border: $tab-border;
+        border-bottom-color: $white;
+        margin-bottom: -1px;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    padding: 1.5em 1.618em;;
+
+    @include media($tab-mode) {
+      border-top: $tab-border;
+    }
+  }
+}
