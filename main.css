@@ -1,3 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "brandon-grotesque";
+}
+p, div {
+    font-family: "brandon-grotesque";
+}
+
 .top-buffer {
   margin-top: 20px;
 }
@@ -30,7 +37,7 @@
   background-image: none;
   box-shadow: none;
   background-color: #ffffff;
-  border-color: #6e1724;
+  border-color: #454545;
 }
 
 .navbar-fixed-top {
