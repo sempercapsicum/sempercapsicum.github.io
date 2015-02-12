@@ -1,0 +1,16 @@
+.top-buffer {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .mini-margin {
+    margin-bottom: 20px;
+  }
+  .top-buffer {
+    margin-top: 0;
+  }
+}
+
+body {
+  padding-top: 70px;
+}
