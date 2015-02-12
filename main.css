@@ -47,3 +47,17 @@ h1 {
 .navbar-fixed-top {
   border-width: 0 0 2px;
 }
+
+.btn-primary {
+  background-color: #791928;
+  border-color: #651320;
+  font-weight: 300;
+}
+
+.btn-primary:hover {
+  background-color: #651320;
+}
+
+.btn-primary:focus {
+  background-color: #791928;
+}
