@@ -32,3 +32,7 @@
   background-color: #ffffff;
   border-color: #6e1724;
 }
+
+.navbar-fixed-top {
+  border-width: 0 0 2px;
+}
