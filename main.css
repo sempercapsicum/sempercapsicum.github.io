@@ -5,6 +5,10 @@ p, div {
     font-family: "brandon-grotesque";
 }
 
+h1 {
+  font-weight: 700;
+}
+
 .top-buffer {
   margin-top: 20px;
 }
