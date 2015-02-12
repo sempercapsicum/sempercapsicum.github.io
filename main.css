@@ -25,3 +25,10 @@
   text-align: center;
   vertical-align: middle;
 }
+
+.navbar-default {
+  background-image: none;
+  box-shadow: none;
+  background-color: #ffffff;
+  border-color: #6e1724;
+}
