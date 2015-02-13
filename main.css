@@ -3,10 +3,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, div {
     font-family: "brandon-grotesque";
+    font-size: 16px;
 }
 
 h1 {
   font-weight: 700;
+}
+
+.content-width {
+  width: 65%;
 }
 
 .top-buffer {
@@ -16,6 +21,9 @@ h1 {
 @media (max-width: 768px) {
   .mini-margin {
     margin-bottom: 20px;
+  }
+  .block-padding {
+    padding: 40px;
   }
   .top-buffer {
     margin-top: 0;
@@ -68,4 +76,8 @@ h1 {
 .btn-primary:focus {
   background-color: #86d145;
   border-color: #6ab22a;
+}
+
+.orange-bg {
+  background-color: #ffd072;
 }
