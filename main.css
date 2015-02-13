@@ -12,6 +12,7 @@ h1 {
 
 .content-width {
   width: 65%;
+  padding: em;
 }
 
 .top-buffer {
@@ -80,4 +81,10 @@ h1 {
 
 .orange-bg {
   background-color: #ffd072;
+}
+
+.avatar {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 20px;
 }
