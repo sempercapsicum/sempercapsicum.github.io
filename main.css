@@ -40,8 +40,13 @@ h1 {
 .navbar-default {
   background-image: none;
   box-shadow: none;
-  background-color: #ffffff;
-  border-color: #454545;
+  background-color: #86d145;
+  border: none;
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
 }
 
 .navbar-fixed-top {
@@ -49,15 +54,18 @@ h1 {
 }
 
 .btn-primary {
-  background-color: #791928;
-  border-color: #651320;
+  background-color: #86d145;
+  border-color: #86d145;
   font-weight: 300;
+  border-radius: 3px;
 }
 
 .btn-primary:hover {
-  background-color: #651320;
+  background-color: #6ab22a;
+  border-color: #6ab22a;
 }
 
 .btn-primary:focus {
-  background-color: #791928;
+  background-color: #86d145;
+  border-color: #6ab22a;
 }
