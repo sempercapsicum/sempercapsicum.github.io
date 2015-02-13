@@ -19,13 +19,16 @@ h1 {
   margin-top: 20px;
 }
 
+.content-buffer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .mini-margin {
     margin-bottom: 20px;
   }
-  .block-padding {
-    padding: 40px;
-  }
+
   .top-buffer {
     margin-top: 0;
   }
