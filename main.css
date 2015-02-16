@@ -22,6 +22,10 @@ h1 {
   margin-top: 20px;
 }
 
+.icon-buffer {
+  margin-top: 40px;
+}
+
 .content-buffer {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -90,4 +94,16 @@ h1 {
 
 .avatar {
   margin-bottom: 20px;
+}
+
+.magic-circle {
+  height: 10em;
+  width: 10em;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+.padding-fix {
+  padding-left: 0;
+  padding-right: 0;
 }
