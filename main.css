@@ -19,10 +19,6 @@ a, a:hover, a:visited {
   color: #000000;
 }
 
-.content-width {
-  width: 65%;
-}
-
 .top-buffer {
   margin-top: 20px;
 }
@@ -32,17 +28,17 @@ a, a:hover, a:visited {
 }
 
 .content-buffer {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
   .mini-margin {
     margin-bottom: 20px;
   }
-
-  .top-buffer {
-    margin-top: 0;
+  .mobile-buffer {
+    margin-top: 140px;
+    margin-bottom: 140px;
   }
 }
 
