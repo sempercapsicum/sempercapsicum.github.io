@@ -14,6 +14,11 @@ h1 {
   font-weight: 700;
 }
 
+a, a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
 .content-width {
   width: 65%;
 }
@@ -89,7 +94,7 @@ h1 {
 }
 
 .green-bg {
-  background-color: #86d145;
+  background-color: #a6e26a;
 }
 
 .avatar {
@@ -106,4 +111,8 @@ h1 {
 .padding-fix {
   padding-left: 0;
   padding-right: 0;
+}
+
+.image-border {
+  border: 1px solid #e8e8e8;
 }
