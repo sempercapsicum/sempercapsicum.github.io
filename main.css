@@ -42,27 +42,12 @@ a, a:hover, a:visited {
   }
 }
 
-.header {
-  display: table;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background-color: #ffcb78;
-}
-
 .text-vertical-center {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.navbar-default {
-  background-image: none;
-  box-shadow: none;
-  background-color: #ffcb78;
-  border: none;
-  font-size: 16px;
-}
 
 .navbar-default .navbar-nav>li>a {
   color: white;
@@ -87,14 +72,6 @@ a, a:hover, a:visited {
 .btn-primary:focus {
   background-color: #86d145;
   border-color: #6ab22a;
-}
-
-.green-bg {
-  background-color: #a6e26a;
-}
-
-.avatar {
-  margin-bottom: 20px;
 }
 
 .magic-circle {
