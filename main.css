@@ -52,6 +52,10 @@ a, a:hover, a:visited {
   }
 }
 
+.special-link {
+  color: #00C4C4;
+}
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
