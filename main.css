@@ -19,6 +19,10 @@ a, a:hover, a:visited {
   color: #000000;
 }
 
+.navbar {
+  background-color: #ffffff;
+}
+
 .top-buffer {
   margin-top: 20px;
 }
@@ -32,13 +36,19 @@ a, a:hover, a:visited {
   margin-bottom: 50px;
 }
 
+.alt-nav {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  .mini-margin {
-    margin-bottom: 20px;
+  nav {
+    display: none;
   }
-  .mobile-buffer {
-    margin-top: 140px;
-    margin-bottom: 140px;
+  .alt-nav {
+    margin-top: 30px;
+    display: block;
+    background: url("images/brand-01-blk.svg") no-repeat center;
+    height: 150px;
   }
 }
 
@@ -48,9 +58,8 @@ a, a:hover, a:visited {
   vertical-align: middle;
 }
 
-
-.navbar-default .navbar-nav>li>a {
-  color: white;
+.navbar-nav>li>a {
+  color: #00C4C4;
 }
 
 .navbar-fixed-top {
